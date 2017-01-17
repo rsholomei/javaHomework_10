@@ -76,6 +76,5 @@ public class ProcessManager {
         String content = ProcessManager.getContentByLink(link);
         String md5Hash = ProcessManager.getMD5hash(content);
         ResultFile.writeResult(path, link, md5Hash);
-
     }
 }
